@@ -160,6 +160,10 @@ Exported dashboard: `dashboard/hr_dashboard.pdf`
 6. Salary hikes are currently **flat across age groups** — not targeted at the
    highest-risk younger cohort, a potential quick win for retention strategy.
 
+## 📊 Executive Dashboard Preview
+
+![Power BI Dashboard](dashboard_preview.png)
+
 ## Tools used
 Python (pandas) for cleaning and segment analysis · Power BI for the interactive dashboard
 
