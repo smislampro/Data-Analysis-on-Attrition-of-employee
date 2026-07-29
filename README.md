@@ -8,6 +8,12 @@ Which employees are most likely to leave, and what factors — department, role,
 compensation, tenure, age, gender, and travel demands — drive that risk, so HR can
 prioritize retention efforts where they matter most?
 
+## Executive Dashboard Preview
+
+<p align="center">
+  <img src="data12.png" alt="Power BI Dashboard" width="100%">
+</p>
+
 ## Dataset
 [IBM HR Analytics Employee Attrition & Performance](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 — 1,470 employee records, 32 analysis-ready columns after cleaning.
@@ -160,11 +166,6 @@ Exported dashboard: `dashboard/hr_dashboard.pdf`
 6. Salary hikes are currently **flat across age groups** — not targeted at the
    highest-risk younger cohort, a potential quick win for retention strategy.
 
-## Executive Dashboard Preview
-
-<p align="center">
-  <img src="data12.png" alt="Power BI Dashboard" width="100%">
-</p>
 
 ## Tools used
 Python (pandas) for cleaning and segment analysis · Power BI for the interactive dashboard
