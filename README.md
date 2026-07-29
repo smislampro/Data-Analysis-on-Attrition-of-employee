@@ -46,6 +46,7 @@ df["age_group"] = pd.cut(df["age"], bins=bins, labels=labels)
 
 # Export processed dataset
 df.to_csv("cleaned_hr_data.csv", index=False)
+```
 
 - By using this python command it settles down all unclean data
 - Removed 3 zero-variance columns with no analytical value: `EmployeeCount`, `Over18`, `StandardHours`
