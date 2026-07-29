@@ -68,7 +68,7 @@ df.to_csv("cleaned_hr_data.csv", index=False)
 
 Sales has the highest departmental attrition, despite R&D being the largest department.
 
-**### Job Role**
+### Job Role
 | Job Role | Attrition Rate |
 |---|---|
 | Sales Representative | 39.8% |
@@ -144,7 +144,7 @@ A modest gap — attrition is slightly more common among male employees.
   with age ≈ 0), meaning **salary hikes are not being used as a targeted lever** for
   the younger, higher-risk age groups — a gap worth addressing.
 
-## 4. Dashboard (Power BI)
+## Dashboard (Power BI)
 Exported dashboard: `dashboard/hr_dashboard.pdf`
 
 **Visuals included:**
@@ -156,7 +156,7 @@ Exported dashboard: `dashboard/hr_dashboard.pdf`
   independently of each other
 - **Gender slicer** — filters all visuals by Male/Female to compare patterns across genders
 
-## 5. Key takeaways
+## Key takeaways
 1. **Overtime is the #1 driver** — 30.5% vs 10.4% attrition, a ~3x gap.
 2. **Early-career, early-tenure employees are highest risk** — ages 26–33 and <1 year
    tenure both show the steepest attrition.
