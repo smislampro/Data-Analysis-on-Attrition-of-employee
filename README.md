@@ -162,7 +162,9 @@ Exported dashboard: `dashboard/hr_dashboard.pdf`
 
 ## 📊 Executive Dashboard Preview
 
-![Power BI Dashboard](data12.png)
+<p align="center">
+  <img src="data12.png" alt="Power BI Dashboard" width="80%">
+</p>
 
 ## Tools used
 Python (pandas) for cleaning and segment analysis · Power BI for the interactive dashboard
