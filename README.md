@@ -4,19 +4,19 @@ End-to-end data analyst project on the IBM HR Analytics Employee Attrition datas
 data cleaning → exploratory analysis across every key segment → interactive Power BI dashboard.
 
 ## Business question
-Which employees are most likely to leave, and what factors — department, role, overtime,
-compensation, tenure, age, gender, and travel demands — drive that risk, so HR can
+Which employees are most likely to leave and what factors:like department, role, overtime,
+compensation, tenure, age, gender and travel demands, drive that risk. So HR can
 prioritize retention efforts where they matter most?
+
+## Dataset
+[IBM HR Analytics Employee Attrition & Performance](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
+— 1,470 employee records, 32 analysis-ready columns after cleaning.
 
 ## Executive Dashboard Preview
 
 <p align="center">
   <img src="data12.png" alt="Power BI Dashboard" width="100%">
 </p>
-
-## Dataset
-[IBM HR Analytics Employee Attrition & Performance](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
-— 1,470 employee records, 32 analysis-ready columns after cleaning.
 
 ## Repository structure
 ```
@@ -67,7 +67,7 @@ df.to_csv("cleaned_hr_data.csv", index=False)
 
 Sales has the highest departmental attrition, despite R&D being the largest department.
 
-### Job Role
+**### Job Role**
 | Job Role | Attrition Rate |
 |---|---|
 | Sales Representative | 39.8% |
